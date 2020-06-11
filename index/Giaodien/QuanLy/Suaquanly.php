@@ -59,7 +59,7 @@ exit();}
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"><span>Quản lý tiền điện</span></a>
+				<a class="brand" href="index.php"><span>Quản lý tiền điện</span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -118,11 +118,28 @@ exit();}
 				<div class="nav-collapse sidebar-nav">
 				<ul class="nav nav-tabs nav-stacked main-menu">
 						<li><a href="index.php"><i class="icon-home"></i><span class="hidden-tablet">Trang chủ</span></a></li>	
-						<li><a href="taikhoan.php"><i class="icon-envelope"></i><span class="hidden-tablet"> Tài khoản </span></a></li>
-						<li><a href="quanly.php"><i class="icon-tasks"></i><span class="hidden-tablet">Quản lý</span></a></li>
-						<li><a href="hoadon.php"><i class="icon-align-justify"></i><span class="hidden-tablet">Hóa đơn</span></a></li>
-						<li><a href="khachhang.php"><i class="icon-folder-open"></i><span class="hidden-tablet">Khách hàng</span></a></li>
-						<li><a href="trangthaisodien.php"><i class="icon-folder-open"></i><span class="hidden-tablet">Gia Điện</span></a></li>
+						<li>
+						    <a class="dropmenu" href="#"><i class="icon-tasks"></i><span class="hidden-tablet">Quản Lý</span><span class="label label-important"></span></a>
+							<ul>
+								<li><a class="submenu" href="quanly.php"><i class="icon-file-alt"></i><span class="hidden-tablet">Danh Sách Quản Lý</span></a></li>
+								<li><a class="submenu" href="khachhang.php"><i class="icon-file-alt"></i><span class="hidden-tablet">Danh Sách Khách Hàng</span></a></li>
+							</ul>
+						</li>
+	
+						<li>
+						    <a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet">Hóa Đơn</span><span class="label label-important"></span></a>
+							<ul>
+								<li><a class="submenu" href="hoadon.php"><i class="icon-file-alt"></i><span class="hidden-tablet"> Hóa Đơn Tiền Điện</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Hóa Đơn Tiền Nước</span></a></li>
+							</ul>
+						</li>
+						<li>
+						    <a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet">Giá Dịch Vụ</span><span class="label label-important"></span></a>
+							<ul>
+								<li><a class="submenu" href="trangthaisodien.php"><i class="icon-file-alt"></i><span class="hidden-tablet"> Giá Điện</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Giá Nước</span></a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>

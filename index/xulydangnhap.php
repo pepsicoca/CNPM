@@ -16,7 +16,7 @@ session_start();
             $row=mysqli_fetch_assoc($result);
             $row1 =mysqli_fetch_assoc($result1);
 			$hass=$row['passWord'];
-			if(password_verify($password,$hass)){
+			if($password == $hass){
 			
 				$_SESSION['username'] = $username;
 				$_SESSION['lv'] = $row['role'];

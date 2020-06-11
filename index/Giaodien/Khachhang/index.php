@@ -12,7 +12,7 @@ exit();}
 	
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Duong seo khong so ai ??</title>
+	<title>DỊCH VỤ THANH TOÁN</title>
 	<meta name="description" content="Bootstrap Metro Dashboard">
 	<meta name="author" content="Dennis Ji">
 	<meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
@@ -60,7 +60,7 @@ exit();}
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#"><span>Quản lý tiền điện</span></a>
+				<a class="brand" href="#"><span>DỊCH VỤ THANH TOÁN</span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -126,7 +126,13 @@ exit();}
 				<div class="nav-collapse sidebar-nav">
 				<ul class="nav nav-tabs nav-stacked main-menu">
 						<li><a href="index.php"><i class="icon-home"></i><span class="hidden-tablet">Trang chủ</span></a></li>	
-						<li><a href="hoadonchuanhap.php"><i class="icon-tasks"></i><span class="hidden-tablet">Hóa đơn</span></a></li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet">Thanh Toán</span><span class="label label-important"></span></a>
+							<ul>
+								<li><a class="submenu" href="hoadonchuanhap.php"><i class="icon-file-alt"></i><span class="hidden-tablet"> Hóa Đơn Tiền Điện</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Hóa Đơn Tiền Nước</span></a></li>
+							</ul>
+						</li>
 						
 					</ul>
 				</div>
