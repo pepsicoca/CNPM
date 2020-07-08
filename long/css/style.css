@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+.form2c {
+    width: 1000px;
+    height: 2000px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 260px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    //background-color: red;
+    border-top: 20px solid white;
+    text-align: center;
+}
+
+.body2c {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.body2c .thongtincoban ul {
+    list-style-type: none;
+}
+
+.body2c ul li {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.thongtincoban ul li:not(.first) {
+    font-size: 20px;
+    float: left;
+}
+
+.lit2 {
+    float: left;
+    padding: px;
+}
+
+.lit2 label,
+input {
+    float: left;
+}
+
+ul .first {
+    border-left: 4px solid royalblue;
+    padding: 1px 0px 1px 13px;
+    color: royalblue;
+}
+
+.thongtincoban ul label {
+    width: 140px;
+    height: 136px;
+    float: left;
+}
+
+.thongtincoban ul li input {
+    width: 260px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 3px;
+    float: left;
+}
+
+.thongtincoban ul .cmt {
+    font-style: italic;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.footer button:hover {
+    background-color: red;
+}
+
+.footer .mot {
+    float: left;
+}
+
+.footer .hai {
+    float: left;
+    margin-left: 8px;
+}
+
+.footer button {
+    padding: 8px 20px;
+}
+
+.footer .footer-button {
+    margin: 33px 0 0 390px;
+}
