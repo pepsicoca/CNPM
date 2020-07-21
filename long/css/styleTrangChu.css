@@ -126,24 +126,29 @@
     }
     
     .last {
-        width: 201px;
-        height: 74px;
-        background-color: white;
-        border: 1px solid gray;
-        border-radius: 5px;
-        display: block;
-        text-decoration: none;
-        text-align: center;
+        float: left;
+        width: inherit;
+        height: 100px;
+        background-color: ;
+        margin-top: 20px;
         justify-content: center;
-        margin-top: 34px;
-        margin-left: 252px;
     }
     
-    .last a {
+    .last button {
+        width: 200px;
+        height: 80px;
+        float: left;
+        border-radius: 5px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .last button a {
+        display: ;
+        font-size: 17px;
         text-decoration: none;
-        margin-top: 25px;
-        display: block;
-        color: rgb(211, 51, 51);
+        color: red;
+        text-align: center;
     }
     
     .huongdan {
