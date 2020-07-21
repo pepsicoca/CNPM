@@ -9,7 +9,7 @@ body {
 
 .form2c {
     width: 1000px;
-    height: 4500px;
+    height: 7000px;
     background-color: white;
     margin-top: 70px;
     margin-left: 260px;
@@ -26,6 +26,11 @@ body {
     width: 100%;
     height: 500px;
     margin-top: 50px;
+    float: left;
+}
+
+.thongtincoban {
+    float: left;
 }
 
 .body2c .thongtincoban ul {
@@ -112,4 +117,64 @@ ul .first {
 
 .thongtinvochong h1 {
     margin-top: 5.433px;
+}
+
+.bang {
+    border: 1px solid gray;
+    display: ;
+    margin-top: 50px;
+}
+
+.chuyenmonnghiepvu {
+    float: left;
+    width: 900px;
+    height: 500px;
+    background-color: ;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.chuyenmonnghiepvu table {
+    border: 1px solid gray;
+    width: 900px;
+}
+
+.chuyenmonnghiepvu table td:not(:first-child) {
+    border-left: 1px solid gray;
+}
+
+.chuyenmonnghiepvu table td {
+    text-align: center;
+    width: 175px;
+    height: 100px;
+    padding: 0;
+}
+
+.chuyenmonnghiepvu table tr:not(:first-child) td {
+    border-top: 1px solid gray;
+}
+
+.chuyenmonnghiepvu table tr td textarea {
+    width: inherit;
+    height: inherit;
+    border: none;
+    background-color: ;
+}
+
+.quatrinhcongtac {
+    width: inherit;
+    height: 500px;
+    float: left;
+}
+
+.chuyenmonnghiepvu h1 {
+    font-size: ;
+    color: royalblue;
+    border-left: 4px solid royalblue;
+    padding-left: 10px;
+}
+
+.luong {
+    margin-top: 150px;
 }

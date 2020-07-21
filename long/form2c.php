@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="form2c">
         <div class="header">
@@ -16,7 +18,22 @@
         <div class="body2c">
             <div class="thongtincoban">
                 <ul>
-                    <li class="first"><h1 style="margin-top: 5.433px;">Thông tin cơ bản</h1></li>
+                    <li class="first">
+                        <h1 style="margin-top: 5.433px;">Thông tin cơ bản</h1>
+                    </li>
+
+                    <li style="margin-top:20px">
+                        <label for="">
+                            ID
+                            <br>
+                        </label>
+                        <input type="text" maxlength="125" name="id">
+                    </li>
+                    <li class="cmt" style="font-size:15px; color:red;">
+                        <label for=""> </label>
+                        Lưu ý: bạn phải nhớ ID này.
+                    </li>
+
                     <li class="lit2" style="margin-top:20px">
                         <label for="">
                             Họ và tên
@@ -30,9 +47,9 @@
                         </label>
                         <input type="text" maxlength="125" name="tengoikhac">
                     </li>
-                    <li class = "cmt" style="font-size:15px; color:red;">
+                    <li class="cmt" style="font-size:15px; color:red;">
                         <label for=""> </label>
-                        Viết bằng chữ in hoa, đủ dấu (In capital letters) 
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
                     </li>
 
                     <li style="margin-top:20px">
@@ -42,9 +59,9 @@
                         </label>
                         <input type="text" maxlength="125" name="socmnd">
                     </li>
-                    <li class = "cmt" style="font-size:15px; color:red;">
+                    <li class="cmt" style="font-size:15px; color:red;">
                         <label for=""> </label>
-                         
+
                     </li>
 
                     <li class="sex" name="gioitinh">
@@ -52,21 +69,21 @@
                             Giới tính
                             <br>
                         </label>
-                        <input type="text" maxlength="125" name="gioitinh" >
-                        <li class = "cmt" style="font-size:15px">
+                        <input type="text" maxlength="125" name="gioitinh">
+                    <li class="cmt" style="font-size:15px">
                         <label for=""> </label>
-                        Ghi rõ nam, nữ, hoặc giới tính thứ 3 
+                        Ghi rõ nam, nữ, hoặc giới tính thứ 3
                     </li>
                     </li>
-                    <li name = "ngaysinh">
+                    <li name="ngaysinh">
                         <label for="">
                             Ngày sinh
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="ngaysinh">
-                    <li class = "cmt" style="font-size:15px">
+                    <li class="cmt" style="font-size:15px">
                         <label for=""> </label>
-                        Ghi rõ ngày, tháng, năm sinh (vd: 30/4/2020) 
+                        Ghi rõ ngày, tháng, năm sinh (vd: 30/4/2020)
                     </li>
                     </li>
                     <li name="noisinh">
@@ -75,9 +92,9 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="noisinh">
-                        <li class = "cmt" style="font-size:15px">
+                    <li class="cmt" style="font-size:15px">
                         <label for=""> </label>
-                        Ghi rõ xã(phường), huyện(quận), tỉnh(thành phố) 
+                        Ghi rõ xã(phường), huyện(quận), tỉnh(thành phố)
                     </li>
                     </li>
                     <li name="quoctich">
@@ -86,46 +103,46 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="quoctich">
-                        <li class = "cmt" style="font-size:15px; color:red">
+                    <li class="cmt" style="font-size:15px; color:red">
                         <label for=""> </label>
-                        Viết bằng chữ in hoa đủ dấu 
+                        Viết bằng chữ in hoa đủ dấu
                     </li>
                     </li>
                     <li name="noithuongtru">
                         <label for="">
-                            Nơi thường trú
+                            Quê quán
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="noithuongtru">
-                    <li class = "cmt" style="font-size:15px">
+                    <li class="cmt" style="font-size:15px">
                         <label for=""> </label>
                         Ghi rõ số nhà, xã(phường), huyện(quận), tỉnh(thành phố)
                     </li>
                     </li>
                     <li name="noitamtru">
-                    <label for="">
+                        <label for="">
                             Nơi tạm trú
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="noitamtru">
-                    <li class = "cmt" style="font-size:15px">
+                    <li class="cmt" style="font-size:15px">
                         <label for=""> </label>
                         Ghi rõ số nhà, xã(phường), huyện(quận), tỉnh(thành phố)
                     </li>
                     </li>
                     <li>
-                    <label for="">
+                        <label for="">
                             Nơi thường trú
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="noithuongtru">
-                    <li class = "cmt" style="font-size:15px">
+                    <li class="cmt" style="font-size:15px">
                         <label for=""> </label>
                         Ghi rõ số nhà, xã(phường), huyện(quận), tỉnh(thành phố)
                     </li>
                     </li>
                     <li>
-                    <label for="">
+                        <label for="">
                             Dân tộc
                             <br>
                         </label>
@@ -136,9 +153,9 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="tongiao">
-                        <li class = "cmt" style="font-size:15px">
+                    <li class="cmt" style="font-size:15px">
                         <label for=""> </label>
-                        
+
                     </li>
                     </li>
                     <li name="nghengiepkhiduoctuyen">
@@ -147,27 +164,27 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="nghenghiepkhiduoctuyendung">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>                       
-                        </li>
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+                    </li>
                     </li>
                     <li name="ngaytuyendung">
-                    <label for="">
+                        <label for="">
                             Ngày tuyển dụng
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="ngaytuyendung">
 
-                        <label for="" style="margin-left: 50px; width:200px" >
+                        <label for="" style="margin-left: 50px; width:200px">
                             Cơ quan tuyển dụng
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="coquantuyendung">
 
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            Ghi rõ ngày, tháng, năm được tuyển dụng (vd: 30/4/2020)           
-                        </li>         
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+                        Ghi rõ ngày, tháng, năm được tuyển dụng (vd: 30/4/2020)
+                    </li>
                     </li>
                     <li>
                         <label for="">
@@ -175,10 +192,10 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="chucdanh">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            Về chính quyền hoặc Đảng, đoàn thể, kể cả chức vụ kiêm nhiệm nhiệm           
-                        </li> 
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+                        Về chính quyền hoặc Đảng, đoàn thể, kể cả chức vụ kiêm nhiệm nhiệm
+                    </li>
                     </li>
                     <li>
                         <label for="">
@@ -186,13 +203,13 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="congviecchinhduocgiao">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                                     
-                        </li> 
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+
+                    </li>
                     </li>
                     <li>
-                    <label for="">
+                        <label for="">
                             Ngạch công chức(viên chức)
                             <br>
                         </label>
@@ -203,26 +220,26 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="mangach">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                                     
-                        </li>
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+
+                    </li>
                     </li>
 
                     <li>
-                    <label for="">
+                        <label for="">
                             Danh hiệu được phong(năm nào)
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="danhhieuduocphong">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                                       
-                        </li> 
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+
+                    </li>
                     </li>
 
                     <li>
-                    <label for="">
+                        <label for="">
                             Sở trường công tác
                             <br>
                         </label>
@@ -233,47 +250,47 @@
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="congvieclamlaunhat">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                                     
-                        </li>
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+
+                    </li>
                     </li>
 
                     <li>
-                    <label for="">
+                        <label for="">
                             Khen Thưởng
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="khenthuong">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            Huân, huy chương năm nào
-                        </li> 
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+                        Huân, huy chương năm nào
+                    </li>
                     </li>
 
                     <li>
-                    <label for="">
+                        <label for="">
                             Kỷ luật
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="kyluat">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            Đảng, chính quyền đoàn thể, Cấp quyết định năm nào, lý do, hình thức
-                        </li>
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+                        Đảng, chính quyền đoàn thể, Cấp quyết định năm nào, lý do, hình thức
                     </li>
-                    
+                    </li>
+
 
                     <li>
-                    <label for="">
+                        <label for="">
                             Tình trạng sức khỏe
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="tinhtrangsuckhoe">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            
-                        </li>
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+
+                    </li>
                     </li>
 
                     <li>
@@ -295,22 +312,22 @@
                         </label>
                         <input type="text" maxlength="125" name="cannang" style="width:100px">
 
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            
-                        </li>
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+
+                    </li>
                     </li>
 
                     <li>
-                    <label for="">
+                        <label for="">
                             Ngày vào Đảng
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="tinhtrangsuckhoe">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            Ghi rõ ngày, tháng, năm
-                        </li>
+                    <li class="cmt" style="font-size:15px">
+                        <label for=""> </label>
+                        Ghi rõ ngày, tháng, năm
+                    </li>
                     </li>
 
                     <li>
@@ -332,213 +349,208 @@
                         </label>
                         <input type="text" maxlength="125" name="cannang" style="width:100px">
 
-                        <li class = "cmt" style="font-size:15px; float:left">
-                            <label for=""> </label>
-                            Ghi rõ ngày, tháng, năm.
-                        </li>
+                    <li class="cmt" style="font-size:15px; float:left">
+                        <label for=""> </label>
+                        Ghi rõ ngày, tháng, năm.
+                    </li>
 
-                       
+
+                    </li>
+
+                    <li >
+                        <label for="">
+                            Thương binh
+                            <br>
+                        </label>
+                        <input type="text" maxlength="125" name="thuongbinh">
+                        <li class="cmt" style="font-size:15px; color:red">
+                            <label for=""> </label>
+                            
+                        </li>
+                    </li>
+
+                    
+                    <li >
+                        <label for="">
+                            Gia đình liệt sĩ
+                            <br>
+                        </label>
+                        <input type="text" maxlength="125" name="thuongbinh">
+                        <li class="cmt" style="font-size:15px; color:red">
+                            <label for=""> </label>
+                            
+                        </li>
                     </li>
                     <!-- aaaaa -->
 
-                    <li class="thongtinvochong"><h1 >Quan hệ gia đình</h1></li>
+                    <li class="thongtinvochong">
+                        <h1>Quan hệ gia đình</h1>
+                    </li>
                     <li class="lit2" style="margin-top:20px">
                         <label for="">
-                            Họ và tên
+                            Họ và tên bố
                             <br>
                         </label>
                         <input type="text" maxlength="125" name="hoten">
-
-                        <label for="" style="margin-left: 50px; width:200px">
-                            Tên gọi khác(nếu có)
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="tengoikhac">
                     </li>
-                    <li class = "cmt" style="font-size:15px; color:red;">
+                    <li class="cmt" style="font-size:15px; color:red;">
                         <label for=""> </label>
-                        Viết bằng chữ in hoa, đủ dấu (In capital letters) 
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
                     </li>
 
-                    <li style="margin-top:20px" name="hoten">
+                    <li class="lit2" style="margin-top:20px">
                         <label for="">
-                            Số CMND
+                            Họ và tên mẹ
                             <br>
                         </label>
-                        <input type="text" maxlength="125" name="socmnd">
+                        <input type="text" maxlength="125" name="hoten">
                     </li>
-                    <li class = "cmt" style="font-size:15px; color:red;">
+                    <li class="cmt" style="font-size:15px; color:red;">
                         <label for=""> </label>
-                         
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
                     </li>
 
-                    <li class="sex" name="gioitinh">
+                    <li class="lit2" style="margin-top:20px">
                         <label for="">
-                            Giới tính
+                            Họ và tên vợ(nếu có).
                             <br>
                         </label>
-                        <input type="text" maxlength="125" name="gioitinh" >
-                        <li class = "cmt" style="font-size:15px">
+                        <input type="text" maxlength="125" name="hoten">
+                    </li>
+                    <li class="cmt" style="font-size:15px; color:red;">
                         <label for=""> </label>
-                        Ghi rõ nam, nữ, hoặc giới tính thứ 3 
-                    </li>
-                    </li>
-                    <li name = "ngaysinh">
-                        <label for="">
-                            Ngày sinh
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="ngaysinh">
-                    <li class = "cmt" style="font-size:15px">
-                        <label for=""> </label>
-                        Ghi rõ ngày, tháng, năm sinh (vd: 30/4/2020) 
-                    </li>
-                    </li>
-                    <li name="noisinh">
-                        <label for="">
-                            Nơi sinh
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="noisinh">
-                        <li class = "cmt" style="font-size:15px">
-                        <label for=""> </label>
-                        Ghi rõ xã(phường), huyện(quận), tỉnh(thành phố) 
-                    </li>
-                    </li>
-                    <li name="quoctich">
-                        <label for="">
-                            Quốc tịch
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="quoctich">
-                        <li class = "cmt" style="font-size:15px; color:red">
-                        <label for=""> </label>
-                        Viết bằng chữ in hoa đủ dấu 
-                    </li>
-                    </li>
-                    <li name="noithuongtru">
-                        <label for="">
-                            Nơi thường trú
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="noithuongtru">
-                    <li class = "cmt" style="font-size:15px">
-                        <label for=""> </label>
-                        Ghi rõ số nhà, xã(phường), huyện(quận), tỉnh(thành phố)
-                    </li>
-                    </li>
-                    <li name="noitamtru">
-                    <label for="">
-                            Nơi tạm trú
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="noitamtru">
-                    <li class = "cmt" style="font-size:15px">
-                        <label for=""> </label>
-                        Ghi rõ số nhà, xã(phường), huyện(quận), tỉnh(thành phố)
-                    </li>
-                    </li>
-                    <li>
-                    <label for="">
-                            Nơi thường trú
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="noithuongtru">
-                    <li class = "cmt" style="font-size:15px">
-                        <label for=""> </label>
-                        Ghi rõ số nhà, xã(phường), huyện(quận), tỉnh(thành phố)
-                    </li>
-                    </li>
-                    <li>
-                    <label for="">
-                            Dân tộc
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="dantoc">
-
-                        <label for="" style="margin-left: 50px; width:200px">
-                            Tôn giáo
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="tongiao">
-                        <li class = "cmt" style="font-size:15px">
-                        <label for=""> </label>
-                        
-                    </li>
-                    </li>
-                    <li name="nghengiepkhiduoctuyen">
-                        <label for="">
-                            Nghề nghiệp khi được tuyển dụng
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="nghenghiepkhiduoctuyendung">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>                       
-                        </li>
-                    </li>
-                    <li name="ngaytuyendung">
-                    <label for="">
-                            Ngày tuyển dụng
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="ngaytuyendung">
-
-                        <label for="" style="margin-left: 50px; width:200px" >
-                            Cơ quan tuyển dụng
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="coquantuyendung">
-
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            Ghi rõ ngày, tháng, năm được tuyển dụng (vd: 30/4/2020)           
-                        </li>         
-                    </li>
-                    <li>
-                        <label for="">
-                            Chức vụ(chức danh) hiện tại
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="chucdanh">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                            Về chính quyền hoặc Đảng, đoàn thể, kể cả chức vụ kiêm nhiệm nhiệm           
-                        </li> 
-                    </li>
-                    <li>
-                        <label for="">
-                            Công việc chính được giao
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="congviecchinhduocgiao">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                                     
-                        </li> 
-                    </li>
-                    <li>
-                    <label for="">
-                            Ngạch công chức(viên chức)
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="ngachcongchuc">
-
-                        <label for="" style="margin-left: 50px; width:200px">
-                            Mã ngạch
-                            <br>
-                        </label>
-                        <input type="text" maxlength="125" name="mangach">
-                        <li class = "cmt" style="font-size:15px">
-                            <label for=""> </label>
-                                     
-                        </li>
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
                     </li>
 
+                    <li class="lit2" style="margin-top:20px">
+                        <label for="">
+                            Họ và tên con
+                            <br>
+                        </label>
+                        <input type="text" maxlength="125" name="hoten">
+                    </li>
+                    <li class="cmt" style="font-size:15px; color:red;">
+                        <label for=""> </label>
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
+                    </li>
+
+
+                    <li class="thongtinvochong">
+                        <h1>Quan hệ bên vợ</h1>
+                    </li>
+                    <li class="lit2" style="margin-top:20px">
+                        <label for="">
+                            Họ và tên bố vợ
+                            <br>
+                        </label>
+                        <input type="text" maxlength="125" name="hoten">
+                    </li>
+                    <li class="cmt" style="font-size:15px; color:red;">
+                        <label for=""> </label>
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
+                    </li>
+
+                    <li class="lit2" style="margin-top:20px">
+                        <label for="">
+                            Họ và tên mẹ vợ
+                            <br>
+                        </label>
+                        <input type="text" maxlength="125" name="hoten">
+                    </li>
+                    <li class="cmt" style="font-size:15px; color:red;">
+                        <label for=""> </label>
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
+                    </li>
+
+                    <li class="lit2" style="margin-top:20px">
+                        <label for="">
+                            Họ và tên anh/chị/em vợ
+                            <br>
+                        </label>
+                        <input type="text" maxlength="125" name="hoten">
+                    </li>
+                    <li class="cmt" style="font-size:15px; color:red;">
+                        <label for=""> </label>
+                        Viết bằng chữ in hoa, đủ dấu (In capital letters)
+                    </li>
+
+                    <li class="thongtinvochong">
+                        <h1>Chuyên môn nghiệp vụ</h1>
+                    </li>
                     <!-- aaaaaa -->
                 </ul>
             </div>
+
+            <div class="chuyenmonnghiepvu">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>Tên trường</td>
+                            <td>Ngành học hoặc tên lớp học</td>
+                            <td>Thời gian học</td>
+                            <td>Hinh thức học</td>
+                            <td>Trình độ</td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+
+            <div class="chuyenmonnghiepvu quatrinhcongtac">
+                <h1 style="color:">Quá trình công tác</h1>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td style="width:100px;height:50px">Từ tháng, năm đến tháng, năm</td>
+                            <td style="width:600px;heigth:50px">Chức danh, chức vụ, đơn vị công tác</td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows="" style="width:690px"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows="" style="width:690px"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows="" style="width:690px"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><textarea name="" id="" cols="" rows=""></textarea></td>
+                            <td><textarea name="" id="" cols="" rows="" style="width:690px"></textarea></td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+
+
+
         </div>
-            <!--
+        <!--
                 <div class="footer" style="float:left">
                     <div class="footer-button">
                         <div class="mot"><button>Xác nhận</button></div>
@@ -547,4 +559,5 @@
                 </div> -->
     </div>
 </body>
+
 </html>
