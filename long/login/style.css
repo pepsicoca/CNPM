@@ -1,0 +1,25 @@
+form {
+  border: 3px solid #f4f1f1;
+  background-color: white;
+  box-shadow: 1px 1px 10px 5px gray;
+  border-radius: 2%;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+  cursor: pointer;
+  text-align: center;
+  width: 40rem;
+  background-color: #30c14d70;
+  border-radius: 6%;
+}
+
+body {
+  background-image: url(../assets/img/dcs.png);
+  background: rgba(0, 0, 0, 0.233);
+}
+
+.container {
+  width: 500px;
+}
