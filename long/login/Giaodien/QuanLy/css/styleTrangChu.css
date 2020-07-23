@@ -1,0 +1,202 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        width: 100%;
+        height: 97.6px;
+        background-color: white;
+    }
+    
+    .mainheader {
+        width: 1140px;
+        height: inherit;
+        background-color: ;
+        position: relative;
+        margin-left: 198px;
+        float: left;
+        position: relative;
+    }
+    
+    .mainheader img {
+        width: 527px;
+        height: 76px;
+        float: left;
+    }
+    
+    .mainheader .phaiheader {
+        float: left;
+        width: 400px;
+        height: inherit;
+        background-color: ;
+        position: absolute;
+        right: 0px;
+        margin-top: 5px;
+    }
+    
+    .flag img {
+        width: 38px;
+        height: 22px;
+        margin-left: 5px;
+    }
+    
+    .flag {
+        position: absolute;
+        right: 0px;
+        padding-right: px;
+        margin-left: 5px;
+    }
+    
+    .timkiemheader ul li {
+        list-style: none;
+    }
+    
+    .timkiemheader ul {
+        position: absolute;
+        right: 0px;
+        top: 30px;
+    }
+    
+    .timkiemheader ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    
+    .timkiemheader ul {
+        float: left;
+        margin-left: ;
+    }
+    
+    .timkiemheader ul li {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .bodymain {
+        width: 100%;
+        height: 369px;
+        float: left;
+        background-color: ;
+        background: url("../img/banner.jpg") no-repeat;
+    }
+    
+    .bodymain .contentbody {
+        width: 1140px;
+        height: inherit;
+        margin-left: 198px;
+        background-color: ;
+        float: left;
+        position: relative;
+    }
+    
+    .bodymain .contentbody .contenttrai,
+    .contentphai {
+        float: left;
+    }
+    
+    .fontaw {
+        color: #FFBB26;
+        font-family: fontawesome;
+        font-size: 35px;
+        margin-right: 10px;
+    }
+    
+    .contenttrai {
+        width: 740px;
+        height: inherit;
+        background-color: ;
+    }
+    
+    .contentphai {
+        width: 380px;
+        height: inherit;
+        background-color: ;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .second span {
+        color: white;
+    }
+    
+    .last {
+        width: 201px;
+        height: 74px;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        margin-top: 34px;
+        margin-left: 252px;
+    }
+    
+    .last a {
+        text-decoration: none;
+        margin-top: 25px;
+        display: block;
+        color: rgb(211, 51, 51);
+    }
+    
+    .huongdan {
+        width: 350px;
+        height: 330px;
+        background-color: ;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    
+    .huongdan ul li {
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .thangthuba {
+        float: left;
+        width: 100%;
+        height: 77px;
+    }
+    
+    .thangthubon {
+        width: 100%;
+        height: 155px;
+        background-color: ;
+        float: left;
+    }
+    
+    .contentthangthubon {
+        width: 1140px;
+        height: inherit;
+        margin-left: 198px;
+        background-color: ;
+    }
+    
+    .fontaw-sub {
+        color: #FFBB26;
+        font-family: fontawesome;
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    
+    .mot {
+        width: 380px;
+        height: 125px;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .thangcuoicung {
+        float: left;
+        width: 100%;
+        height: 50px;
+        border-top: 2px solid gray;
+        text-align: center;
+    }

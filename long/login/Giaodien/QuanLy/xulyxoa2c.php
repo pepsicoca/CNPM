@@ -6,22 +6,7 @@ $xoaid = $_POST['id'];
 $sqll = "SELECT * from form2c where id = $xoaid";
 $data = select_one($sqll);
 //print_r($data);exit();
-if (isset($data['id'])) {
-	$sql = "DELETE FROM quanhebenvo WHERE id = $xoaid";
-$sql1 = "DELETE FROM chuyenmonnghiepvu WHERE id = $xoaid";
-$sql2 = "DELETE FROM quanhegiadinh WHERE id = $xoaid";
-$sql3 = "DELETE FROM quatrinhcongtac WHERE id = $xoaid";
-$sql4 = "DELETE FROM form2c WHERE id = $xoaid";
-//print_r($sql);exit();
-$data = mysqli_query($conn,$sql);
-$data1 = mysqli_query($conn,$sql1);
-$data2 = mysqli_query($conn,$sql2);
-$data3 = mysqli_query($conn,$sql3);
-$data4 = mysqli_query($conn,$sql4);
-$success = 'Xóa Thành Công !!!';
-} else {
-	$false = 'Id này chưa có trong danh sách';
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -146,18 +131,18 @@ $success = 'Xóa Thành Công !!!';
 						<li>
 							<a class="dropmenu" href="#"><i class="icon-tasks"></i><span class="hidden-tablet">Quản
 									Lý</span><span class="label label-important"></span></a>
-									<ul>
+							<ul>
 								<li><a class="submenu" href="quanly.php"><i class="icon-file-alt"></i><span
 											class="hidden-tablet">Danh Sách Quản Lý</span></a></li>
 								<li><a class="submenu" href="khachhang.php"><i class="icon-file-alt"></i><span
 											class="hidden-tablet">Danh Sách Khách Hàng</span></a></li>
-                                            <li><a class="submenu" href="suathongtin2c.php"><i class="icon-file-alt"></i><span
+								<li><a class="submenu" href="suathongtin2c.php"><i class="icon-file-alt"></i><span
 											class="hidden-tablet">Sửa Thông Tin Khách</span></a></li>
-                                            <li><a class="submenu" href="xoa2c.php"><i class="icon-file-alt"></i><span
+								<li><a class="submenu" href="xoa2c.php"><i class="icon-file-alt"></i><span
 											class="hidden-tablet">Xóa Khách</span></a></li>
-                                            <li><a class="submenu" href="chitietkhach2c.php"><i class="icon-file-alt"></i><span
-											class="hidden-tablet">Chi Tiết Khách 2C</span></a></li>                                            
-                            </ul>
+								<li><a class="submenu" href="chitietkhach2c.php"><i class="icon-file-alt"></i><span
+											class="hidden-tablet">Chi Tiết Khách 2C</span></a></li>
+							</ul>
 						</li>
 					</ul>
 				</div>
@@ -198,12 +183,23 @@ $success = 'Xóa Thành Công !!!';
 							</div>
 						</div>
 						<div class="box-content">
-                         <p><?php if (isset($data['id'])) {?>
-							 <?php echo $success;?>
-						<?php } else {?>
-							ID này chưa có trong danh sách
-						<? }?>
-						 </p>
+							<p><?php if (isset($data['id'])) {
+	                           $sql = "DELETE FROM quanhebenvo WHERE id = $xoaid";
+                               $sql1 = "DELETE FROM chuyenmonnghiepvu WHERE id = $xoaid";
+                              $sql2 = "DELETE FROM quanhegiadinh WHERE id = $xoaid";
+                               $sql3 = "DELETE FROM quatrinhcongtac WHERE id = $xoaid";
+                               $sql4 = "DELETE FROM form2c WHERE id = $xoaid";
+//print_r($sql);exit();
+                               $data = mysqli_query($conn,$sql);
+                               $data1 = mysqli_query($conn,$sql1);
+                               $data2 = mysqli_query($conn,$sql2);
+                                $data3 = mysqli_query($conn,$sql3);
+                                $data4 = mysqli_query($conn,$sql4);
+                               echo 'Xóa Thành Công !!!';
+                                } else {
+	                              echo 'Id này chưa có trong danh sách';
+                                   }?>
+							</p>
 						</div>
 					</div>
 					<!--/span-->

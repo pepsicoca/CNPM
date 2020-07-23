@@ -175,7 +175,7 @@ if(isset($_GET['id'])){
 				<div class="row-fluid sortable">
 					<div class="box span12">
 						<div class="box-header" data-original-title>
-							<h2><i class="halflings-icon white user"></i><span class="break"></span><?php if (isset($data['if'])) {?>
+							<h2><i class="halflings-icon white user"></i><span class="break"></span><?php if (isset($data['id'])) {?>
 								<?php echo $data['HoTen']; ?>
 							<?php }else { ?>
 								Khách Hàng

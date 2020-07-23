@@ -737,7 +737,7 @@ $ret = exec_update($sql4);
                     </table>
                 </div>
                 <input style="margin-top : 100px ; margin-left : 50%" type="submit" value="Chỉnh Sửa">
-                <input style="margin-top : 100px ; margin-left : 20px" type="submit" value="In Mẫu">
+                <a style="margin-top : 100px ; margin-left : 20px" href="make.php" value="In Mẫu">
              </form>
             </div>
 

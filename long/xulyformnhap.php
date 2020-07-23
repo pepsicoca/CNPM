@@ -754,7 +754,7 @@ $ret = exec_update($sql4);
                     </table>
                 </div>
                 <input style="margin-top : 100px ; margin-left : 50%" type="submit" value="Chỉnh Sửa">
-                <input style="margin-top : 100px ; margin-left : 20px" type="submit" value="In Mẫu">
+                <button style="margin-top : 100px ; margin-left : 20px"><a href="Ketqua.php" style="color : black ; text-decoration : none">Xem KQ</a></button>
              </form>
             </div>
             <?php }?>

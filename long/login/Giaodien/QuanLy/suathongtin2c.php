@@ -178,8 +178,8 @@ session_start();
 						<div class="box-content">
 
 							<div>
-								<form action="xulysuathongtin2c.php" style=" display: contents">
-									<input id="" class="" type="text" value="" placeholder="ID người dùng">
+								<form action="xulysuathongtin2c.php" style=" display: contents" method="post">
+									<input id="" name="suaid" class="" type="text" value="" placeholder="ID người dùng">
                                     <input id="btnkhachhang" class="btn btn-primary" type="submit" value="Sửa">
 								</form>
 							</div>

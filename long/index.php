@@ -64,6 +64,11 @@
                              NHẬP TỜ KHAI
                              
                          </a>
+                         <br>
+                         <a href="Ketqua.php" class="nhaptokhai">
+                             Kiểm Tra Hồ Sơ
+                             
+                         </a>
                      </div>
                 </div>
                 <div class="contentphai">
